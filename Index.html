@@ -3,66 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <title>FDAcademy</title>
+  <link rel="stylesheet" href="style.css"> 
 </head>
-<body style="margin:0; font-family:Arial, sans-serif; background-image:url('img/Professional exterio.png'); background-size:cover; background-position:center;"><br><br><br>
+<body>
+ 
+  <img src="img/Official logo design.png" width="100" height="150" alt="FDA Logo Top" class="logo-top">
 
-  <img src="img/Official logo design.png" width="100" height="150" alt="FDA Logo Top"
-       style="position:absolute; top:10px; left:10px;"><br>
-  <div style="position:relative; text-align:center; color:white; padding:40px 20px;">
-    
-    <img src="img/Professional exterio.png" alt="FDA Cover" style="width:100%; height:auto; border-radius:8px;">
+  <div class="main-content">
 
-    <div style="position:absolute; top:20px; right:20px;">
-  <a href="SignIn.html" style="text-decoration:none;">
-    <button style="padding:10px 20px; margin:5px; border:none; border-radius:5px; background:rgba(40,167,69,0.7); color:white; font-size:16px; cursor:pointer;">
-      Sign In
-    </button>
-  </a>
-  <a href="RegStudant.html" style="text-decoration:none;">
-    <button style="padding:10px 20px; margin:5px; border:none; border-radius:5px; background:rgba(255,152,0,0.7); color:white; font-size:16px; cursor:pointer;">
-      Sign Up
-    </button>
-  </a>
-</div>
-    <div style="max-width:800px; margin:20px auto;">
+    <img src="img/Professional exterio.png" alt="FDA Cover" class="cover">
+
+   
+    <div class="top-buttons">
+      <a href="SignIn.html"><button class="btn btn-green">Sign In</button></a>
+      <a href="RegStudant.html"><button class="btn btn-orange">Sign Up</button></a>
+    </div>
+
+   
+    <div class="about">
       <h2>About Future Dev Academy</h2>
       <p><strong>Future Dev Academy</strong> is a modern educational institution specialized in preparing a generation empowered with technical and programming skills.
       We believe the future belongs to those who master its tools, so we provide a cutting-edge learning environment that combines theory with practical application,
       guided by professional trainers and experts in programming, application development, and artificial intelligence.</p>
     </div>
-
-    <div style="margin:20px;">
-  <a href="RegStudant.html" style="text-decoration:none;">
-    <button style="padding:10px 20px; margin:10px; border:none; border-radius:5px; background:rgba(0,115,230,0.7); color:white; font-size:16px; cursor:pointer;">
-      Registration
-    </button>
-  </a>
-</div>
-
-    <section id="classroom" style="margin-top:30px;">
+   
+    <div class="registration-btn">
+      <a href="RegStudant.html"><button class="btn btn-blue">Registration</button></a>
+    </div>
+   
+    <section id="classroom">
       <h2>Our Classrooms</h2>
-      <div style="display:flex; flex-wrap:wrap; gap:15px; justify-content:center;">
-        <div style="flex:1 1 250px; max-width:300px; text-align:center;">
-          <img src="img/Interior view of a Class1.png" alt="Classroom 1" style="width:100%; height:auto; border-radius:8px;">
+      <div class="classrooms">
+        <div class="classroom">
+          <img src="img/Interior view of a Class1.png" alt="Classroom 1">
           <p>Programming Lab</p>
         </div>
-        <div style="flex:1 1 250px; max-width:300px; text-align:center;">
-          <img src="img/Classroom at Future cl2.png" alt="Classroom 2" style="width:100%; height:auto; border-radius:8px;">
+        <div class="classroom">
+          <img src="img/Classroom at Future cl2.png" alt="Classroom 2">
           <p>AI Training Room</p>
         </div>
-        <div style="flex:1 1 250px; max-width:300px; text-align:center;">
-          <img src="img/Classroom at Future  cl4.png" alt="Classroom 3" style="width:100%; height:auto; border-radius:8px;">
+        <div class="classroom">
+          <img src="img/Classroom at Future  cl4.png" alt="Classroom 3">
           <p>Web Development Studio</p>
         </div>
       </div>
     </section>
   </div>
-  <div style="text-align:center; margin:20px; color:#f0f0f0;">
+
+  <div class="footer">
     <img src="img/Official logo design.png" width="100" height="150" alt="FDA Logo Bottom"><br>
-    <p style="margin:5px 0; color:#f0eeee;">© 2025 Future Dev Academy. All Rights Reserved.</p>
-    <p style="margin:5px 0; color:#88cdd7;">Powered By Future Dev Academy</p>
-    <p style="margin:5px 0; color:#ffffff;">Contact: info@futuredevacademy.com | Phone: +962-7-1234-5678</p>
+    <p>© 2025 Future Dev Academy. All Rights Reserved.</p>
+    <p>Powered By Future Dev Academy</p>
+    <p>Contact: osamaabuzanh@gmail.com | Phone: +962-7-8999-0679</p>
   </div>
 
+  <script src="script.js"></script> 
 </body>
 </html>

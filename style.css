@@ -1,0 +1,177 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("img/Professional exterio.png");
+  background-size: cover;
+  background-position: center;
+  color: rgb(186, 199, 224);
+}
+
+.logo-top {
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+.main-content {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.cover {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.top-buttons {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-top: .5px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  color: rgba(255, 254, 254, 0.733);
+}
+
+.btn-green { background: rgba(115, 197, 134, 0.7); }
+.btn-orange { background: rgba(255, 187, 85, 0.7); }
+.btn-blue { background: rgba(5, 126, 239, 0.901); }
+
+.btn:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  box-shadow: 00 0 10px rgba(49, 231, 43, 0.7);
+   background: rgb(97, 64, 218);
+}
+
+.about {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.registration-btn {
+  margin: 20px;
+}
+
+#classroom {
+  margin-top: 30px;
+}
+
+.classrooms {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.classroom {
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.classroom img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.footer {
+  text-align: center;
+  margin: 20px;
+  color: #f0f0f0;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+.form-body {
+  background-image: url("img/Professional exterio.png");
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.form-box {
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.form-box h2 {
+  text-align: center;
+  color: #e9ebec;
+}
+
+.form-box label {
+  color: #e9ebec;
+  display: block;
+  margin-top: 10px;
+}
+
+.form-box input{
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    background-color: transparent;
+    border: 1px solid #22aee5;
+    color: #c4d5ef;
+}
+.form-box select {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  background-color: transparent;
+  border: 1px solid #22aee5;
+  color: #7a7e85;
+}
+.form-box select option {
+  background-color: #1a1a1a;
+  color: #ffffff;            
+}
+.form-box .btn {
+   display: block;
+  margin: 15px auto;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: rgba(5, 126, 239, 0.9);
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.form-box .btn:hover {
+  background: rgb(97, 64, 218);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(43, 231, 68, 0.7);
+}
+.form-message {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+    font-size: 14px;
+    display: block;
+}
+.form-message.error {
+  color: rgb(255, 0, 0);
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+
